@@ -1,4 +1,4 @@
-# 🎮 Ecommerce Informática - API REST
+# # 🎮 Ecommerce Informática - API REST
 
 <div align="center">
 
@@ -10,17 +10,17 @@
 
 ## 📌 Sobre o Projeto
 
-API REST desenvolvida para um sistema de **E-commerce de Informática**, utilizando **Java e Spring Boot**.
+API REST de um sistema de **E-commerce de Informática** desenvolvida com **Java e Spring Boot**.
 
-O projeto tem como objetivo gerenciar clientes e pedidos, aplicando CRUD, relacionamento entre entidades e consultas personalizadas.
+O projeto realiza o gerenciamento de clientes e pedidos com CRUD completo, relacionamento entre entidades e pesquisa personalizada.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
 ☕ Java 17  
 🌱 Spring Boot  
-🐬 MySQL  
+💾 MySQL  
 🔗 Spring Data JPA  
 📡 API REST  
 🚀 Insomnia  
@@ -30,48 +30,52 @@ O projeto tem como objetivo gerenciar clientes e pedidos, aplicando CRUD, relaci
 
 ## 🔧 Funcionalidades
 
-### 👤 Cliente
+👤 **Clientes**
+- Cadastro
+- Consulta
+- Atualização
+- Exclusão
 
-✅ Cadastro  
-✅ Listagem  
-✅ Busca por ID  
-✅ Atualização  
-✅ Exclusão  
+📦 **Pedidos**
+- Cadastro
+- Consulta
+- Atualização
+- Exclusão
 
-### 📦 Pedido
+🔎 **Pesquisa personalizada**
 
-✅ Cadastro  
-✅ Listagem  
-✅ Busca por ID  
-✅ Atualização  
-✅ Exclusão  
-
----
-
-liente 1 -------- N Pedido
-
-
-Um cliente pode possuir vários pedidos.
-
----
-
-## 🔎 Pesquisa Personalizada
-
-Busca pedidos pelo nome do cliente:
-
-
+```http
 GET /pedidos/pesquisa?cliente=Patrick
+```
 
 ---
 
-## 🗄️ Banco de Dados
+## 💾 Banco de Dados
 
-🐬 MySQL
+**MySQL**
 
 Tabelas:
 
 - `tb_clientes`
 - `tb_pedidos`
+
+Relacionamento:
+
+```text
+Cliente 1 -------- N Pedido
+```
+
+---
+
+## 🔬 Testes da API
+
+🚀 **Insomnia**
+
+Testes realizados:
+
+✅ CRUD de clientes  
+✅ CRUD de pedidos  
+✅ Consultas personalizadas  
 
 ---
 
