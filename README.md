@@ -52,3 +52,5 @@ Projeto desenvolvido para praticar **APIs REST, persistência de dados, relacion
 **Patrick Carneiro**
 
 [GitHub](https://github.com/phcarneiro9)
+
+<!-- README refresh -->
