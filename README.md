@@ -1,84 +1,54 @@
- # 🎮 Ecommerce Informática - API REST
+# 🖥️ E-commerce Informática — API REST
 
-<div align="center">
+API REST desenvolvida com **Java 17 e Spring Boot 3** para gerenciamento de clientes e pedidos de um e-commerce de informática.
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-green)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+## 🚀 Funcionalidades
 
-</div>
+### Clientes
+- Criar, listar, buscar, atualizar e excluir clientes
 
-## 📌 Sobre o Projeto
+### Pedidos
+- Criar, listar, buscar, atualizar e excluir pedidos
+- Pesquisa personalizada por cliente
 
-API REST de um sistema de **E-commerce de Informática** desenvolvida com **Java e Spring Boot**.
+## 🧩 Relacionamento
 
-O projeto realiza o gerenciamento de clientes e pedidos com CRUD completo, relacionamento entre entidades e pesquisa personalizada.
+```text
+Cliente 1 ──── N Pedido
+```
 
----
+## 🛠️ Tecnologias
 
-## 🚀 Tecnologias
+- Java 17
+- Spring Boot 3
+- Spring Data JPA
+- Hibernate
+- MySQL
+- API REST
+- Maven
+- Insomnia
 
-☕ Java 17  
-🌱 Spring Boot  
-💾 MySQL  
-🔗 Spring Data JPA  
-📡 API REST  
-🚀 Insomnia  
-🐙 Git e GitHub  
-
----
-
-## 🔧 Funcionalidades
-
-👤 **Clientes**
-- Cadastro
-- Consulta
-- Atualização
-- Exclusão
-
-📦 **Pedidos**
-- Cadastro
-- Consulta
-- Atualização
-- Exclusão
-
-🔎 **Pesquisa personalizada**
+## 🔎 Exemplo de consulta
 
 ```http
 GET /pedidos/pesquisa?cliente=Patrick
 ```
 
----
+## ▶️ Como executar
 
-## 💾 Banco de Dados
-
-**MySQL**
-
-Tabelas:
-
-- `tb_clientes`
-- `tb_pedidos`
-
-Relacionamento:
-
-```text
-Cliente 1 -------- N Pedido
+```bash
+git clone https://github.com/phcarneiro9/Ecommerce_Informatica.git
+cd Ecommerce_Informatica
 ```
 
----
+Configure o banco MySQL nas propriedades da aplicação e execute o projeto com Maven ou pela IDE.
 
-## 🔬 Testes da API
+## 🎯 Objetivo
 
-🚀 **Insomnia**
+Projeto desenvolvido para praticar **APIs REST, persistência de dados, relacionamentos entre entidades e consultas personalizadas** com Spring Boot.
 
-Testes realizados:
-
-✅ CRUD de clientes  
-✅ CRUD de pedidos  
-✅ Consultas personalizadas  
-
----
-
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Autor
 
 **Patrick Carneiro**
+
+[GitHub](https://github.com/phcarneiro9)
